@@ -14,7 +14,9 @@ The data collected at LNM includes continuous, high temporal resolution measurem
 - Meteorology, including temperature, humidity, wind speed, wind direction.
 - Noise, 1/3 octave frequency bands and weighted sound pressure levels in decibels (dB).
 
-Supplemental data includes:
-- Satellite-detected flares from the Visible Imaging Spectroradiometer (VIIRS) [Nightfire](https://eogdata.mines.edu/products/vnf/)
+### Supplemental data
+- Satellite-detected flares from the Visible Imaging Spectroradiometer (VIIRS) [Nightfire](https://eogdata.mines.edu/products/vnf/).
+- Well locations and monthly production values from [Enverus](https://www.enverus.com/) (only available for download from Enverus with subscription). 
 
-
+### Acknowledgement
+The data were collected and research was conducted under contract to the Health Effects Institute (HEI), an organization jointly funded by the United States Environmental Protection Agency (EPA) (Contract No. 68HERC19D0010) and certain oil and natural gas companies. Although the research was produced with partial funding by EPA and industry, they have not been subject to their review, and therefore the research does not necessarily reflect the views of the Agency or the oil and natural gas industry, and no official endorsement by the Agency or the industry should be inferred.
