@@ -6,7 +6,7 @@ This repository contains data and code for analyzing source contributions to air
 ![Monitoring Site Map](figures/study-region.png)
 *Figure 1. Map showing the Permian basin and location of the monitoring site in Loving, New Mexico (green dot), with well density (heatmap) and VIIRS satellite-detected flares (blue dots).*
 
-The monitoring program was designed to quantify the influence of different unconventional oil and gas development (UOGD) activities such as flaring, venting, combustion, traffic, and produced water ponds on local air quality and noise pollution. 
+The monitoring campaign was designed to quantify the influence of different unconventional oil and gas development (UOGD) activities such as flaring, venting, combustion, traffic, and produced water ponds on local air quality and noise pollution. 
 
 ### Data
 The data collected at LNM includes continuous, high temporal resolution measurements of:
