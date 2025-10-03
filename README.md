@@ -14,6 +14,11 @@ The data collected at LNM includes continuous, high temporal resolution measurem
 - Meteorology, including temperature, humidity, wind speed, wind direction.
 - Noise, 1/3 octave frequency bands and weighted sound pressure levels in decibels (dB).
 
+All data followed strict quality control and quality assurance protocols. Additional information about the data collection and QA/QC methods can be found at [Boulder Air](https://www.bouldair.com/loving.htm)
+
+![LNM-BoulderAir](figures/lnm-trailer.png)
+*Figure 2. Outside and inside the LNM sampling trailer.*
+
 ### Supplemental data
 - Satellite-detected flares from the Visible Imaging Spectroradiometer (VIIRS) [Nightfire](https://eogdata.mines.edu/products/vnf/).
 - Well locations and monthly production values from [Enverus](https://www.enverus.com/) (only available for download from Enverus with subscription). 
