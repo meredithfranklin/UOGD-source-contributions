@@ -1,13 +1,14 @@
 ## Assessing Source Contributions to Air Quality and Noise in Unconventional Oil Shale Plays
 
 ### Data
+
 The three subfolders of data are organized as follows:
 
 - 1- minute-data: These data (.csv) include air pollutants and meteorology that were measured at 1-minute temporal resolution: CH4, CO2, CO, H2S, SO2, NO, NO2, NOx, O3, wind direction (wdr_deg), wind speed (wsp_ms), temperature (temp_f), relative humidity (relh_percent), incoming solar radiation (solr), atmospheric pressure (pressure_altcorr), precipitation (rain), water vapor (water_vapor_mr). Measurement units are in the second row of the datasets.
 
 - VOC-sampling-window: These datasets include averaged data corresponding to the 10-minute VOC sampling period centered at the 5th minute of every hour. For all minute-level data, 4 timestamps before, the center timestamp, and the four timestamps after were averaged. For radioactivity measurements (rd) the nearest 10 minute sample was extracted. For this averaging, there was no minimum amount of data points required to compute; one data point was sufficient. Measurement units are in the second row of the datasets.
 
-- merged-analytic:
+- merged-analytic: This dataset includes the merged VOC-sampling-window data 
 
 All VOC-sampling window data were merged 
 
