@@ -1,0 +1,101 @@
+# =========================
+# R-specific
+# =========================
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+.Rproj.user/**
+
+# RStudio project files
+*.Rproj
+
+# R package build artifacts
+.Rcheck/
+*.tar.gz
+vignettes/*.html
+vignettes/*.pdf
+
+# renv cache / lock files
+renv/library/
+renv/staging/
+renv/python/
+renv.lock
+
+# Packrat
+packrat/
+*.packrat.lock
+
+# Quarto and knitr output
+*.utf8.md
+*.knit.md
+*.nb.html
+
+# =========================
+# Python-specific
+# =========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+pip-log.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyright
+.pyright/
+
+# Pyre type checker
+.pyre/
+
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Data files
+*.tsv
+*.sav
+*.rda
+*.feather
+*.parquet
+*.h5
+*.db
+*.sqlite
+*.json
+
+
+# Other
+*.bak
+*.swp
+*.tmp
