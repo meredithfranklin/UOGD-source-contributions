@@ -92,7 +92,6 @@ Thumbs.db
 *.h5
 *.db
 *.sqlite
-*.json
 
 
 # Other
