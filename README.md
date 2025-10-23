@@ -9,12 +9,17 @@ This repository contains data and code for analyzing source contributions to air
 The monitoring campaign was designed to quantify the influence of different unconventional oil and gas development (UOGD) activities such as flaring, venting, combustion, traffic, and produced water ponds on local air quality and noise pollution. 
 
 ### Data
+
+**Data can be accessed from this repo under [data](/data) and explored with this [visualization tool](https://meredithfranklin.github.io/UOGD-source-contributions/)**
+
 The data collected at LNM includes continuous, high temporal resolution measurements of:
 - Ambient air pollutants and greenhouse gases, including nitrogen oxides (NO, NO<sub>2</sub>), sulfur dioxide (SO<sub>2</sub>), hydrogen sulfide (H<sub>2</sub>S), methane (CH<sub>4</sub>), carbon dioxide (CO<sub>2</sub>), carbon monoxide (CO), radon, particle radioactivity, 20 speciated volatile organic compounds (VOCs).
 - Meteorology, including temperature, humidity, wind speed, wind direction.
 - Noise, 1/3 octave frequency bands and weighted sound pressure levels in decibels (dB).
 
 All data followed strict quality control and quality assurance protocols. Additional information about the data collection and QA/QC methods can be found at [Boulder Air](https://www.bouldair.com/loving.htm)
+
+
 
 ![LNM-BoulderAir](figures/lnm-trailer.png)
 *Figure 2. Outside and inside the LNM sampling trailer.*
