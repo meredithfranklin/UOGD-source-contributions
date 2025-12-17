@@ -31,7 +31,7 @@ read_skip_second_github <- function(filename) {
 # put files into a list
 data_list <- map(filenames, read_skip_second_github)
 
-# merge by time_utc and create mountain time
+# merge by time_utc and create mountain
 hourly_data <- reduce(data_list, full_join, by = "time_utc") %>%
   rename(co2 = co2_ppm) %>%
   mutate(
@@ -47,4 +47,5 @@ hourly_data <- reduce(data_list, full_join, by = "time_utc") %>%
   ) %>%
   arrange(datetime_mountain) %>%
   select(datetime_mountain, everything())
-}
+
+write.csv(hourly_data, "merged_for_nmf.csv", row.names = F)
